@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="MSI, mainboard, stuu, płyta główna">
+    <meta name="description" content="Charakterystyka płyty głównej. Opis komponentów">
+    <meta name="author" content="Marcin Wojciechowski">
+    <meta name="editor" content="JetBrain Webstorm">
+    <title>Charakterystyka płyty głównej</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/></head>
+    <link rel="stylesheet" href="css/style.css">
+
+<body>
+<main id="mainboardMain">
+    <section id="mainboardBlock">
+
+        <article>
+            <div id="cpu">
+                <span class="tooltiptext">
+               <i class="far fa-microchip"></i>
+                    Gniazdo Procesora
+                </span>
+            </div>
+            <div id="ram">
+                <span class="tooltiptext">RAM<i class="far fa-memory"></i></span>
+            </div>
+            <div id="pci" >
+               <span class="tooltiptext">PCI EXPRESS<i class="far fa-desktop"></i>
+               </span>
+            </div>
+            <div id="chlodzenie">
+                <span class="tooltiptext">
+                <i class="fas fa-fan"></i>
+                    Chłodzenie
+                </span>
+            </div>
+            <div id="m2">
+                <span class="tooltiptext">
+                    M.2 Socket 3</span>
+            </div>
+            <div id="chip">
+                <span class="tooltiptext">
+                    <i class="fas fa-bezier-curve"></i>
+                    Chipset
+                </span>
+            </div>
+            <div id="gen2">
+                <span class="tooltiptext">PCI-E GEN.2</span>
+            </div>
+            <div id="PCI-I">
+                <span class="tooltiptext">PCI-I </span>
+            </div>
+            <div id="sata">
+                <span class="tooltiptext">Gniazdo SATA</span>
+            </div>
+            <div id="porty">
+                <span class="tooltiptext">Porty </span>
+            </div>
+        </article>
+
+    </section>
+<section id="mainboardLegend">
+<h2>LEGENDA</h2>
+
+    <div id="cpuinfo" class="hide">
+        <div class="describe">
+            <h3 style="color: white"> Gniazdo procesora</h3>
+              Socket 1200
+                Obsługuje takie procesory jak:
+                 <ul> < Intel Core i9</ul>
+                 <ul> < Intel Core i7</ul>
+                 <ul> < Intel Core i5</ul>
+                 <ul> < Intel Core i3</ul>
+                 <ul> < Intel Celeron</ul>
+                 <ul> < Intel Pentium</ul>
+        </div>
+    </div>
+    <div id="raminfo" class="hide">
+        <div class="describe">s
+            <h4 style="color: white">Typ obsługiwanej pamięci RAM:</h4>
+            <ul> < DDR4-2933 MHz (Intel Core i7/i9)</ul>
+            <ul> < DDR4-2666 MHz (Intel Core i3/i5)</ul>
+            <ul> < DDR4-2400 MHz</ul>
+            <ul> < DDR4-2133 MHz</ul>
+        </div>
+    </div>
+    <div id="pciinfo" class="hide">
+        <div class="describe">
+            <h5 style="color: white" > PCI EXPRESS </h5>
+            Pozwala na przesyłanie danych z dużą prędkością, instalację kart rozszerzeń na płycie głównej. Zastąpiło ono magistrale PCI oraz AGP.
+            Istnieje możliwość wyprowadzenia interfejsu PCIe na zewnątrz.
+
+        </div>
+    </div>
+    <div id="chlodzenieinfo" class="hide">
+        <div class="describe">
+            <h6 style="color: white" id="naglówekinfo">Chłodzenie</h6>
+            Rozbudowany układ regulatora PWM firmy MSI i ulepszony projekt obwodów elektrycznych sprawiają, że nawet najbardziej zaawansowane procesory na płytach głównych
+            MSI mogą zawsze pracować z pełną prędkością.
+        </div>
+    </div>
+    <div id="m2info" class="hide">
+        <div class="describe">
+            <h6 style="color: white">M.2 Socket 3</h6>
+            Jest to złącze dla kart rozszerzeń zaprojektowane zostało jako szybszy i bardziej kompaktowy następca interfejsu mSATA. Oferuje większą wydajność niż standardy SATA III oraz mSATA.
+            Prędkość transmisji danych w przypadku M.2 jest w stanie osiągnąć 4 GB/s dzięki wykorzystaniu magistrali PCI Express.
+        </div>
+    </div>
+    <div id="chipinfo" class="hide">
+        <div class="describe">
+        <h6 style="color: white" id="chipppppek" >Chipset</h6>
+            Jest to grupa układów scalonych lub zespół układów płyty głównej.
+            Zadaniem chipseta jest organizowanie przepływu informacji pomiędzy określonymi podzespołami komputera.
+            Ta karta posiada chipset Intel Z490.
+        </div>
+    </div>
+    <div id="gen2info" class="hide">
+        <div class="describe">
+            <h6 style="color: white"  id="gen200000">PCI GEN 2.0</h6>
+        W wersji 2.0 łącza PCIe częstotliwość taktowania wynosi 5 GHz, a protokół transmisji wprowadza dwa dodatkowe bity korekcji błędów, do każdych ośmiu bitów danych (kodowanie 8b/10b).
+        Wynika z tego, że przepustowość jednej linii wynosi 500 MB/s. W związku z tym, że urządzenia mogą jednocześnie przekazywać sygnały w obu kierunkach (full-duplex), można założyć takie wykorzystanie złącza, że transfer będzie sięgał 1 GB/s.
+        Kolejne wersje PCI Express zwykle mają dwa razy większą przepustowość od poprzednich.
+        </div>
+    </div>
+    <div id="PCI-Iinfo" class="hide">
+        <div class="describe">
+            <h6 style="color: white" id="dwapciex">PCI-I</h6>
+        Jest to magistrala komunikacyjna służąca do przyłączania kart rozszerzeń do płyty głównej w komputerach klasy PC.
+        W przeciwieństwie do innych magistrali, przykładowo VESA Local Bus, która początkowo była stosowana tylko do przyspieszenia operacji graficznych,
+        szyna PCI stanowi kompleksowe rozwiązanie, przyspieszające współpracę z dowolnym urządzeniem zewnętrznym.
+    </div>
+    </div>
+    <div id="satainfo" class="hide">
+        <div class="describe">
+        <h6 style="color: white">Gniazdo zasilania</h6>
+            Płyta główna jest zasilana przez dwa przewody.
+            Jeden z nich kończy się wtyczką 24-pinową.
+            Jej odpowiedni kształt sprawia, że nie sposób ją błędnie podłączyć do gniazda znajdującego się po prawej stronie płyty, tuż obok pamięci operacyjnej.
+        </div>
+    </div>
+    <div id="portyinfo" class="hide">
+        <div class="describe">
+        <h6 style="color: white">PORTY W PŁYCIE GŁÓWNEJ</h6>
+        Zewnętrzne złącza
+        HDMI - 1 szt.
+        DisplayPort - 1 szt.
+        RJ45 (LAN) - 2 szt.
+        USB Type-C - 1 szt.
+        USB 3.1 Gen. 1 (USB 3.0) - 4 szt.
+        USB 3.1 Gen.2 - 1 szt.
+        USB 2.0 - 2 szt.
+        PS/2 klawiatura/mysz - 1 szt.
+        Audio jack - 5 szt.
+        S/PDIF - 1 szt.
+        </div>
+    </div>
+</section>
+
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+body {
+    background-color: darkkhaki ;
+
+}
+#mainboardBlock {
+    background-image: url("../img/plyta.png");
+    background-size: 1000px 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 1100px;
+    background-position: center;
+
+}
+#cpu,
+#ram,
+#pci,
+#chlodzenie,
+#m2,
+#chip,
+#gen2,
+#PCI-I,
+#sata,
+#porty
+ {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/dot.svg");
+    position: absolute;
+    top: 350px;
+    left: 500px;
+}
+ #ram{
+    top: 300px;
+     left: 750px;
+}
+ #pci{
+     top: 620px;
+     left:350px;
+ }
+ #chlodzenie {
+     top: 300px;
+     left: 150px;
+ }
+ #m2 {
+     top: 880px;
+     left: 400px;
+ }
+ #chip {
+     top: 730px;
+     left: 600px;
+ }
+ #gen2 {
+     top: 765px;
+     left: 190px;
+ }
+ #PCI-I {
+     top: 820px;
+     left: 330px;
+ }
+ #sata {
+     top: 280px;
+     left: 890px;
+ }
+ #porty {
+     top: 250px;
+     left: 2px;
+ }
+/* Tooltip container */
+
+
+/* Tooltip text */
+#cpu .tooltiptext,
+#ram .tooltiptext,
+#pci .tooltiptext,
+#chlodzenie .tooltiptext,
+#m2 .tooltiptext,
+#chip .tooltiptext,
+#gen2 .tooltiptext,
+#PCI-I .tooltiptext,
+#sata .tooltiptext,
+#porty .tooltiptext
+{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+#cpu:hover .tooltiptext,
+#ram:hover .tooltiptext,
+#pci:hover .tooltiptext,
+#chlodzenie:hover .tooltiptext,
+#m2:hover .tooltiptext,
+#chip:hover .tooltiptext,
+#gen2:hover .tooltiptext,
+#PCI-I:hover .tooltiptext,
+#sata:hover .tooltiptext,
+#porty:hover .tooltiptext
+{
+    visibility: visible;
+}
+#mainboardMain {
+    display: flex;
+    width: 100%;
+}
+
+
+#mainboardLegend {
+    width: 49%;
+    margin-left: 1%;
+}
+#mainboardBlock {
+    width: 50%;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+#raminfo .describe,
+#cpuinfo .describe,
+#pciinfo .describe,
+#chipinfo .describe,
+#m2info .describe,
+#chlodzenieinfo .describe,
+#portyinfo .describe,
+#satainfo .describe,
+#gen2info .describe,
+#PCI-Iinfo .describe
+{
+    background-position: center;
+    padding: 10px;
+    color: darkorange;
+    text-shadow: black 2px 2px 5px;
+    font-size: 2em;
+    z-index: -120;
+    border-radius: 20px;
+    border: 3px solid white;
+    box-shadow: rgba(0,0,0,0.5) 10px 10px 5px;
+    background-repeat: no-repeat;
+}
+#raminfo .describe {
+    background-image: url("../img/raminfo.png");
+    height: 846px;
+    width: 327px;
+
+    padding: 1px;
+}
+#cpuinfo .describe {
+    background-image: url("../img/cpuinfo.png");
+    height: 602px;
+    font-size: 2em;
+    width: 808px;
+}
+#pciinfo .describe {
+    background-image: url("../img/pciinfo.png");
+    height: 205px;
+    width: 903px;
+    font-size: 1.5em;
+}
+#chipinfo .describe {
+    background-image: url("../img/chipinfo.png");
+    height: 500px;
+    width: 800px;
+    font-size: 2.3em;
+}
+#m2info .describe {
+    background-image: url("../img/m2info.png");
+    height: 412px;
+    width: 700px;
+}
+#chlodzenieinfo {
+    background-image: url("../img/chlodzenie.png");
+    height: 760px;
+    width: 458px;
+    font-size: 1.3em;
+    background-repeat: no-repeat;
+}
+#portyinfo {
+    background-image: url("../img/porty.png");
+    height: 241px;
+    width: 927px;
+
+    font-size: 0.87em;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#satainfo {
+    background-image: url("../img/sata.png");
+    font-size: 0.7em;
+    height: 247px;
+    width: 580px;
+    background-repeat: no-repeat;
+}
+#gen2info {
+    background-image: url("../img/gen20.png");
+    font-size: 0.79em;
+    height: 554px;
+    width: 468px;
+    background-repeat: no-repeat;
+}
+#PCI-Iinfo {
+    background-image: url("../img/pciiii.png");
+    font-size: 0.95em;
+    height: 483px;
+    width: 765px;
+    background-repeat: no-repeat;
+}
+#gen200000 {
+    font-size: 1em;
+}
+#dwapciex {
+    font-size: 1.2em;
+}
+#naglówekinfo {
+    font-size: 1em;
+}
+#chipppppek {
+    font-size: 1.2em;
+}
